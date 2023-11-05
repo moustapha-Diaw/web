@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: var(--myWhite);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+/*c'est une var pour faciliter la couleur en cas de changement*/
+:root{
+    --myWhite: white;
+    --myYellow: #fdc435;
+}
+/*Gerer la menu*/
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 0px 0px #fdc4353a;
+}
+.accueil{
+    color: var(--myYellow);
+}
+.logo-yokkal{
+   padding-right: 400px;
+    font-size: 25px;
+    font-weight: bold;
+     
+}
+.logo-yokkal span{
+    color: var(--myYellow);
+    font-weight: bold;
+}
+div ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    float: left;
+   padding: 40px;
+  font-weight: bold;
+}
+li :hover{
+    color: var(--myYellow);
+}
+li .accueil:hover{
+    color: var(--myWhite);
+
+}
+a{
+    color: var(--myWhite);
+    text-decoration: none; 
+}
+ul{
+    list-style-type: none;
+}
+.div ul li a{
+    text-decoration: none;
+    color:var(--myWhite);
+    font-weight: bold;
+}
+.div ul li a :hover{
+    color: var(--myYellow);
+}
+/*image d'accueil*/
+
+.image-accueil img{
+    width:100%;
+    height:500px;
+}
+.presentation{
+    position: absolute;
+    margin-top: -350px;
+}
+.presentation h1{
+    text-align: center;
+}
+.presentation p{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*Gerer les produit*/
+
+/*Ordinateur Portable*/
+.produit{
+    text-align: center;
+}
+
+#produit{
+    display: flex;
+    text-align: center;
+    padding-left: 240px;
+}
+
+#produit figure img{
+   width: 260px;
+   height: 200px;
+   margin-left:20px;
+   border-radius: 8px;
+}
+#produit figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#produit figcaption{
+    color:  var(--myYellow);
+}
+#produit figure a{
+    color: var(--myYellow);
+}
+/*Ordinateur Portable2*/
+#produit2{
+    text-align: center;
+}
+
+#produit2 figcaption{
+    color:  var(--myYellow);
+}
+#produit2 figure a{
+    color:  var(--myYellow);
+}
+
+#produit2{
+    display: flex;
+    text-align: center;
+}
+#produit2 img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-left:35px;
+}
+/*Unite centerale*/
+.produit-Unite{
+    display: flex;
+    text-align: center;
+}
+.produit-Unite img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-left:35px;
+}
+.produit-Unite figcaption{
+    color:  var(--myYellow);
+}
+.produit-Unite figure a{
+    color:  var(--myYellow);
+}
+.produit-Unite figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*Clavier*/
+.Clavier{
+    display: flex;
+    text-align: center;
+}
+.Clavier img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-left:35px;
+}
+.Clavier figcaption{
+    color:  var(--myYellow);
+}
+.Clavier figure a{
+    color:  var(--myYellow);
+}
+.Clavier figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*Souris*/
+.Souris{
+    display: flex;
+    text-align: center;
+}
+.Souris img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-left:35px;
+}
+.Souris figcaption{
+    color:  var(--myYellow);
+}
+.Souris figure a{
+    color:  var(--myYellow);
+}
+.Souris figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*Haute parleur*/
+.Haute-parleur{
+    display: flex;
+    text-align: center;
+    padding-left: 240px;
+}
+.Haute-parleur img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.Haute-parleur figcaption{
+    color: var(--myYellow);
+}
+.Haute-parleur figure a{
+    color:  var(--myYellow);
+}
+.Haute-parleur figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*Carte mere*/
+.Carte-Mere{
+    display: flex;
+    text-align: center;
+    padding-left: 240px;
+}
+.Carte-Mere img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.Carte-Mere figcaption{
+    color: var(--myYellow);
+}
+.Carte-Mere figure a{
+    color:  var(--myYellow);
+}
+.Carte-Mere figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*Disque dur*/
+.Disque-dur{
+    display: flex;
+    text-align: center;
+    padding-left: 240px;
+}
+.Disque-dur img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.Disque-dur figcaption{
+    color: var(--myYellow);
+}
+.Disque-dur figure a{
+    color:  var(--myYellow);
+}
+.Disque-dur figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*Ram*/
+.Ram{
+    display: flex;
+    text-align: center;
+    padding-left: 240px;
+}
+.Ram img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.Ram figcaption{
+    color: var(--myYellow);
+}
+.Ram figure a{
+    color:  var(--myYellow);
+}
+.Ram figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*carte-graphique*/
+.carte-graphique{
+    display: flex;
+    text-align: center;
+}
+.carte-graphique img{
+    width: 300px;
+    height: 170px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-left:35px;
+}
+.carte-graphique figcaption{
+    color:  var(--myYellow);
+}
+.carte-graphique figure a{
+    color:  var(--myYellow);
+}
+.carte-graphique figure img:hover{
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/*figcaption*/
+.figcaption1{
+
+    background-color: var(--myYellow);
+}
+.Retour{
+    color: var(--myYellow);
+}
+/*footer*/
+
+footer .Contact :hover{
+    color: var(--myYellow);
+}
+footer{
+    text-align: center;
+    
+}
+footer input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+footer textarea{
+    width: 400px;
+    border-radius: 10px;
+}
+
+footer input:focus{
+    background-color:var(--myYellow);
+    color: var(--myWhite);
+    border: none;
+}
+footer .btn{
+    background-color: var(--myYellow);
+    border-radius: 10px;
+    padding: 10px;
+}
+/*btn acheter*/
+.acheter{
+    background-color: var(--myWhite);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*responsive*/
+@media (max-width: 900px){
+    /*logo*/
+    .logo-yokkal{
+        padding-right: 100px;
+         font-size: 10px;
+         font-weight: bold; 
+         padding-right: 20px;
+     }
+     li{
+       padding: 8px;
+    }
+    /*img-d'accueil*/
+    
+     .image-accueil img{
+        width:100%;
+        height:200px;
+    }
+     /*presentation*/
+    .presentation{
+        position: absolute;
+        margin-top: -210px;
+        color: var(--myYellow)
+    }
+    /*produit1*/
+    #produit{
+        padding-left: 0px;
+    }
+    #produit figure img{
+        width: 120px;
+        height: 90px;
+        border-radius: 3px;
+        margin-left:0px; 
+     }
+    #produit2 img{
+        width: 100px;
+        height: 90px;
+        box-sizing: border-box;
+        padding-left: 4px;
+        margin-left:4px;
+    }
+    
+    /*unite centeral*/
+    .produit-Unite img{
+        width: 100px;
+        height: 90px;
+        box-sizing: border-box;
+        padding-left: 4px;
+        margin-left:4px;
+    }
+    /*Clavier*/
+    
+    .Clavier img{
+        width: 100px;
+        height: 90px;
+        box-sizing: border-box;
+        padding-left: 4px;
+        margin-left:3px;
+    }
+     /*Souris*/
+    
+    .Souris img{
+        width: 100px;
+        height: 90px;
+        box-sizing: border-box;
+        padding-left: 4px;
+        margin-left:3px;
+    }
+     /*haut-parleur*/
+    
+    .Haute-parleur{
+    padding-left: 10px;
+}
+.Haute-parleur img{
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-left: 4px;
+}
+.Haute-parleur h3{
+    padding-left: 10px;
+}
+     /*Carte-Mere*/
+    
+     .Carte-Mere{
+        padding-left: 25px;
+    }
+    .Carte-Mere img{
+        width: 120px;
+        height: 100px;
+        box-sizing: border-box;
+        padding-left: 10px;
+    }
+
+/*Disque dur*/
+.Disque-dur{
+    padding-left: 25px;
+}
+.Disque-dur img{
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.Ram{
+    padding-left: 25px;
+}
+.Ram img{
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+ /*carte-graphique*/
+.carte-graphique{
+   
+    text-align: center;
+}
+.carte-graphique img{
+    width: 100px;
+    height: 90px;
+    box-sizing: border-box;
+    padding-left: 4px;
+    margin-left:0px;
+}
+/*footer*/
+footer input{
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+}
+footer textarea{
+    width: 250px;
+    border-radius: 10px;
+}
+footer .btn{
+
+    border-radius: 8px;
+    padding: 8px;
+}
+
+}
